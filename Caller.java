@@ -43,7 +43,7 @@ public class Caller extends JFrame {
         public void   setAddress(String address){ this.address = address; }
     }
 
-    // ==================== UNDO / REDO ACTION (Stack-based) ====================
+    
 
     private enum ActionType { ADD, DELETE, UPDATE, BULK_DELETE }
 
@@ -94,7 +94,7 @@ public class Caller extends JFrame {
         }
     }
 
-    // ==================== GRADIENT PANEL ====================
+    //gradient 
 
     private static class GradientPanel extends JPanel {
         private final Color c1, c2;
